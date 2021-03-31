@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgConvert", "ImgConvert.vcxproj", "{7C49A130-B798-4160-A562-D1D08042AA45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Debug|x64.ActiveCfg = Debug|x64
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Debug|x64.Build.0 = Debug|x64
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Debug|x86.Build.0 = Debug|Win32
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Release|x64.ActiveCfg = Release|x64
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Release|x64.Build.0 = Release|x64
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Release|x86.ActiveCfg = Release|Win32
+		{7C49A130-B798-4160-A562-D1D08042AA45}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DB737F7-5E2D-4810-8D14-38E7D8941A8A}
+	EndGlobalSection
+EndGlobal
