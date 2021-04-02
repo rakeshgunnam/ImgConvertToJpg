@@ -8,11 +8,11 @@ using namespace cv;
 
 int main()
 {
-    cout << "\n\nJPG Image Convertion\n\n";
+    cout << "\n\nImage Type Convertion to JPG\n\n";
 
-    cout << "Enter Image Type Extention to Convert to JPG \n";
-    string Extention;
-    cin >> Extention;
+   /* cout << "Enter Image Type Extention to Convert to JPG \n";
+    string Extention;*/
+   /* cin >> Extention;*/
     string Path, DestPath;
     cout << "Enter Root Path:\n";
     cin >> Path;
@@ -20,8 +20,12 @@ int main()
     cout << "\nEnetr Destination Path:\n";
     cin >> DestPath;
 
+    cout << "\nEnter Name Prefix: \n";
+    string NPrefix;
+    cin >> NPrefix;
+
     vector<String> fn;
-    glob(Path+"\\*."+Extention, fn, false);
+    glob(Path+"\\*.*", fn, false);
 
     vector<Mat> images;
 
@@ -36,7 +40,7 @@ int main()
             cout << "Can not open file or Image is not present\n";
         }
 
-        bool check = imwrite(DestPath + "\\" + to_string(i) + ".jpg", img);
+        bool check = imwrite(DestPath + "\\" + NPrefix + to_string(i) + ".jpg", img);
 
         if (check == false)
         {
